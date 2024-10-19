@@ -17,3 +17,5 @@ def second_largest(arr):
 
 array = [14, 11, 23, 42, 39, 16]
 print(second_largest(array))
+
+##output=39
