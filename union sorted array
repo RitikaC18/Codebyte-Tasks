@@ -1,0 +1,10 @@
+def union_sorted_arrays(a, b):
+    # Use set union to get unique elements from both arrays
+    union_set = set(a).union(set(b))
+    # Convert the set back to a sorted list
+    return sorted(union_set)
+
+# Example arrays
+a = [9, 10, 21, 3, 4]
+b = [9, 4, 5, 3, 6]
+print(union_sorted_arrays(a, b))
